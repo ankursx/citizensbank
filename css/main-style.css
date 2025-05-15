@@ -1,0 +1,367 @@
+ body{margin:0;padding:0;font-family: Arial, sans-serif;font-size:16px;}
+ 
+ h1{font-size:40px;font-family: Arial, sans-serif;color:#00945f;}
+ h2{font-size:30px;font-family: Arial, sans-serif;color:#00945f;margin-bottom: 20px;}
+ h3{font-size:25px;font-family: Arial, sans-serif;color:#00945f;}
+ h4{font-size:20px;font-family: Arial, sans-serif;color:#00945f;margin-bottom: 0;}
+ h5{font-size:15px;font-family: Arial, sans-serif;color:#00945f;}
+ h6{font-size:10px;font-family: Arial, sans-serif;color:#00945f;}
+ 
+ p{    font-size: 16px;
+    font-family: Arial, sans-serif;
+    color: #888888;
+    line-height: 30px;margin-top: 15px;}
+	
+	.mtb{margin-top: 15px;
+    margin-bottom: 15px;}
+ 
+ .text-center{text-align:center;}
+ 
+ .investment-section{margin-top: 60px;margin-left:25px;margin-right:25px;}
+ 
+ .citizen-section{margin-top: 40px;    margin-left: 25px;
+    margin-right: 25px;}
+	
+	.citizenbank-section{margin-top: 60px;    margin-left: 25px;
+    margin-right: 25px;}
+	
+	.testimonial-section{margin-top: 60px;    margin-left: 25px;
+    margin-right: 25px;}
+	
+	.green-bg{background-color:#000;}
+ 
+ .divider{    border: 1px solid #00945f;
+    width: 5%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;}
+	
+	.orange-btn {
+    background-color: #e97300;
+    border: 0px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+	    width: 100px;
+    text-decoration: none;
+}
+
+
+	.orange-btn a {
+       text-decoration: none;
+    background-color: #e97300;
+    border: 0px;
+ padding: 10px 20px; 
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+}
+
+
+	.orange-btn:hover {
+    background-color: #00945f;
+    border: 0px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+}
+
+.r-ctrl{display: flex;
+    justify-content: space-between;column-gap: 80px;}
+	
+	.linedivider {
+    border: 1px solid #eee;
+}
+
+.mrgt-40{margin-top:40px;}
+
+.green-text{color:#759b24;}
+
+.green-bg{background-color: #00945f;
+    padding: 18px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;}
+	
+	.light-green-bg{    background-color: #ebf7f5;
+    padding: 15px 40px;}
+	
+	.pdlr{padding-left: 60px;
+    padding-right: 60px;}
+	
+	.bg-img{}
+	
+	.green-text1{color:#54bea4;line-height: 27px;}
+	
+	.footer-section{margin-top:100px; border-top:2px solid #00945f;padding-top: 30px;padding-bottom: 50px;}
+	
+	.footer-social{display: inline-flex;
+    padding: 0;
+    margin: 0;list-style-type: none;}
+	
+	.footer-social li {
+    color:#fff;
+    margin: 5px;
+    text-align: center;
+}
+
+.fb-bg-clr{    background: #3b5998;
+    padding: 10px 10px 10px 10px;
+	color:#fff;
+	width: 16px;
+    height: 16px;
+	} 
+	
+	.twitter-bg-clr{background: #2daae1;
+        padding: 10px 10px 10px 10px;
+	width: 16px;
+    height: 16px;
+		}
+	
+	.linkedin-bg-clr{background: #0173b2;
+        padding: 10px 10px 10px 10px;
+		width: 16px;
+    height: 16px;
+		}
+	
+	.youtube-bg-clr{background: #e14e42;
+        padding: 10px 10px 10px 10px;
+		width: 16px;
+    height: 16px;
+		}
+		
+		.p-font-c{    line-height: 20px;
+    font-size: 14px;}
+	
+	.grey-text{color: #888888; }
+	
+	.black-clr{color:#000;}
+	
+	.coma-ctrl{position: absolute;
+    margin-top: 153px;
+    left: 76px;}
+	
+	.coma-ctrl1{    position: absolute;
+    margin-top: 153px;
+    /* left: -7px; */
+    right: 63%;}
+	
+	.coma-ctrl2{position: absolute;
+    margin-top: 153px;
+    left: 79%;}
+	
+	.d-ctrl2{display:none;}
+	
+	
+	 .desktop-image {
+    display: block;
+  }
+
+  .mobile-image {
+    display: none;
+  }
+.mrgl{margin-left:30px;}
+ 
+ @media (max-width: 768px) {
+	 
+	 .tc{    text-align: center;
+    margin: 0 auto;
+    display: block;}
+	
+	.r-ctrl {
+    display: inline-block;
+    justify-content: space-between;
+    column-gap: 80px;
+}
+	.mrgt-40 {
+    margin-top: 0px;
+} 
+
+.mrgt-20{margin-top:20px;}
+
+.pdlr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.coma-ctrl2 {
+    position: absolute;
+    margin-top: 153px;
+    left: 7%;
+}
+
+.coma-ctrl1 {
+    position: absolute;
+    margin-top: 153px;
+    /* left: -7px; */
+    right: 84%;
+}
+
+.footer-section {
+    margin-top: 100px;
+    border-top: 2px solid #00945f;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.citizenbank-section {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.light-green-bg {
+    background-color: #ebf7f5;
+    padding: 4px 24px;
+}
+
+ .desktop-image {
+      display: none;
+    }
+    .mobile-image {
+      display: block;
+    }
+.investment-section {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.divider {
+    border: 1px solid #00945f;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.mrgl{margin-left:0px;}
+ }
+ 
+  @media (max-width: 480px) {
+	 
+	 .tc{    text-align: center;
+    margin: 0 auto;
+    display: block;}
+	
+	.r-ctrl {
+    display: inline-block;
+    justify-content: space-between;
+    column-gap: 80px;
+}
+	 .mrgt-40 {
+    margin-top: 0px;
+}
+
+.mrgt-20{margin-top:20px;}
+
+.pdlr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.coma-ctrl2 {
+    position: absolute;
+    margin-top: 153px;
+    left: 15%;
+}
+
+.citizenbank-section {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.light-green-bg {
+    background-color: #ebf7f5;
+    padding: 4px 24px;
+}
+ .desktop-image {
+      display: none;
+    }
+    .mobile-image {
+      display: block;
+    }
+	
+	.investment-section {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.divider {
+    border: 1px solid #00945f;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.mrgl{margin-left:0px;}
+ }
+ 
+  @media (max-width: 380px) {
+	 
+	 .tc{    text-align: center;
+    margin: 0 auto;
+    display: block;}
+	 .r-ctrl {
+    display: inline-block;
+    justify-content: space-between;
+    column-gap: 80px;
+}
+
+
+.mrgt-40 {
+    margin-top: 0px;
+}
+
+.mrgt-20{margin-top:20px;}
+
+.pdlr {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.coma-ctrl2 {
+    position: absolute;
+    margin-top: 153px;
+    left: 15%;
+}
+
+    .coma-ctrl1 {
+        position: absolute;
+        margin-top: 153px;
+        /* left: -7px; */
+        right: 66%;
+    }
+	
+	
+	.citizenbank-section {
+    margin-top: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.light-green-bg {
+    background-color: #ebf7f5;
+    padding: 4px 24px;
+}
+ .desktop-image {
+      display: none;
+    }
+    .mobile-image {
+      display: block;
+    }
+	.investment-section {
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+	.divider {
+    border: 1px solid #00945f;
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.mrgl{margin-left:0px;}
+ }
